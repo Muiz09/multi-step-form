@@ -1,0 +1,81 @@
+@import '@styles/base';
+
+.conPayment {
+  // background-color: red;
+  height: 400px;
+
+  .selectPlan {
+    font-size: 30px;
+    font-weight: 900;
+
+  }
+
+  .youHave {
+    font-size: 16px;
+    font-weight: 700;
+    color: grey;
+    padding-bottom: 50px;
+  }
+
+  .payment {
+    display: flex;
+    gap: 20px;
+    .kelas {
+      margin-top: 40px;
+    }
+    .price {
+      font-size: 12px;
+      color: gray;
+
+    }
+    .toogle {
+      font-size: 12px;
+    }
+
+    .box1 {
+      height: 160px;
+      width: 120px;
+      border-radius: 8px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      display: block;
+      padding-top: 6px;
+      padding-left: 6px;
+      font-weight: 500;
+    }
+
+    .box1:hover {
+      border: 1px solid black;
+      cursor: pointer;
+    }
+
+    .box2 {
+      height: 160px;
+      width: 120px;
+      border-radius: 8px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      padding-top: 6px;
+      padding-left: 6px;
+      font-weight: 500;
+    }
+
+    .box2:hover {
+      border: 1px solid black;
+      cursor: pointer;
+    }
+
+    .box3 {
+      height: 160px;
+      width: 120px;
+      border-radius: 8px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      padding-top: 6px;
+      padding-left: 6px;
+      font-weight: 500;
+    }
+
+    .box3:hover {
+      border: 1px solid black;
+      cursor: pointer;
+    }
+  }
+}

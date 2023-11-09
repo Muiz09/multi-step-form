@@ -1,0 +1,34 @@
+@import '@styles/base';
+
+.conAddOn {
+  height: 400px;
+  width: 420px;
+
+  .selectPlan {
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  .youHave {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .cardContainer {
+    height: 120px;
+    width: 300px;
+
+    .card {
+      height: 80px;
+      width: 390px;
+      margin-bottom: 6px;
+      margin-top: 6px;
+      border: 1px solid black;
+      border-radius: 10px;
+
+      .titleCard {
+        padding-left: 20px;
+      }
+    }
+  }
+}

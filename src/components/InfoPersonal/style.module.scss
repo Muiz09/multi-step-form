@@ -1,0 +1,31 @@
+@import '@styles/base';
+
+.contentInfo {
+  height: 470px;
+  width: 420px;
+  // margin-left: 30px;
+
+  .personalInfo {
+    padding-top: 39px;
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  .pleaseProvide {
+    font-size: 12px;
+    font-size: 800;
+    color: gray;
+
+  }
+
+  .nameForm {
+    padding-top: 20px;
+    font-size: 12px;
+    font-size: 800;
+
+    .botton {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}

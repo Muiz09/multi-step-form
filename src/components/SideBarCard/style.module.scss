@@ -1,0 +1,71 @@
+@import '@styles/base';
+
+.contentStep {
+  background-image: url('../../assets/images/bg-sidebar-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 470px;
+  width: 250px;
+  margin: 30px;
+  border-radius: 10px;
+
+  .stepOne {
+    padding-left: 30px;
+    padding-top: 20px;
+    display: flex;
+    p {
+      border-radius: 20px;
+      border: 3px solid #fff;
+      color: #fff;
+      width: 29px;
+      text-align: center;
+    }
+
+    .alur {
+      padding-left: 20px;
+      padding-top: 20px;
+
+      .step {
+        font-size: 11px;
+        color: antiquewhite
+      }
+
+      .one {
+        font-size: 16px;
+        font-weight: 900;
+      }
+
+
+    }
+  }
+
+  .stepOne1 {
+    padding-left: 30px;
+    padding-top: 0px;
+    display: flex;
+
+    // background-color: red;
+    p {
+      border-radius: 20px;
+      border: 3px solid #fff;
+      // background-color: red;
+      color: #fff;
+      width: 29px;
+      text-align: center;
+    }
+
+    .alur1 {
+      padding-left: 20px;
+      padding-top: 20px;
+      .step1 {
+        font-size: 11px;
+        color: antiquewhite
+      }
+
+      .one1 {
+        font-size: 16px;
+        font-weight: 900;
+      }
+    }
+  }
+}
